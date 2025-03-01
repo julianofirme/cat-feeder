@@ -31,7 +31,7 @@ void loop() {
 
     if (seconds > 3){
           myservo.write(0);
-          delay(200);
+          delay(4000);
 
           myservo.write(100);
           startTime = 0;
@@ -41,5 +41,5 @@ void loop() {
     Serial.println(seconds);
     Serial.println("");
 
-    delay(1000);
+    delay(4000);
 }
